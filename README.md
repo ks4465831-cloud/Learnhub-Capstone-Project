@@ -9,7 +9,7 @@ Instructors publish courses (modules → lessons + quizzes), students enrol, tra
 - Demo video: <video ka link>
 - GitHub repository: https://github.com/ks4465831-cloud/Learnhub-Capstone-Project
 - Deployed frontend: https://learnhub-capstone-project.vercel.app/
-- Deployed backend (API): https://learnhub-capstone-project.onrender.com  (health check: /api/health)
+- Deployed backend (API): https://learnhub-capstone-project.onrender.com/  (health check: /api/health)
 
 - Postman collection: `backend/LearnHub.postman_collection.json` (set the `baseUrl` variable to `http://localhost:5001/api`)
 - ER diagram: `docs/ER_diagram.svg`
