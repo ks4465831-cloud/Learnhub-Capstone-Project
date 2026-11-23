@@ -8,6 +8,7 @@ const app = express();
 app.use(cors({ origin: process.env.CLIENT_URL || '*' }));
 app.use(express.json());
 
+app.get('/', (req, res) => res.json({ message: 'LearnHub API is running', health: '/api/health' }));
 app.get('/api/health', (req, res) => res.json({ status: 'ok' }));
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/courses', require('./routes/courseRoutes'));
